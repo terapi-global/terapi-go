@@ -1,0 +1,13 @@
+
+package swagger
+// DeclineTenantInvitationRequestErrorCodes :   20996101 = TenantNotFound  20996102 = UnknownExceptionWhileFetchingTenant  20996103 = UnknownExceptionWhileDecliningTenant  20996104 = TenantIsNotInInvitedStatus  20996105 = UnknownExceptionWhileCheckingIfTenantIsInCorrectStatus
+type DeclineTenantInvitationRequestErrorCodes int32
+
+// List of DeclineTenantInvitationRequestErrorCodes
+const (
+	20996101__DeclineTenantInvitationRequestErrorCodes DeclineTenantInvitationRequestErrorCodes = "20996101"
+	20996102__DeclineTenantInvitationRequestErrorCodes DeclineTenantInvitationRequestErrorCodes = "20996102"
+	20996103__DeclineTenantInvitationRequestErrorCodes DeclineTenantInvitationRequestErrorCodes = "20996103"
+	20996104__DeclineTenantInvitationRequestErrorCodes DeclineTenantInvitationRequestErrorCodes = "20996104"
+	20996105__DeclineTenantInvitationRequestErrorCodes DeclineTenantInvitationRequestErrorCodes = "20996105"
+)

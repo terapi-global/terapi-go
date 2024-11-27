@@ -1,0 +1,15 @@
+
+package swagger
+// AddIntegrationToApplicationRequestErrorCodes :   18999101 = ApplicationNotFound  18999102 = UnknownExceptionWhenCheckApplicationExistence  18999103 = IntegrationNotFound  18999104 = UnknownExceptionWhenCheckIntegrationExistence  18999105 = UnknownExceptionWhenAddIntegrationToApplication  18999106 = IntegrationAlreadyAddedToTheApplication  18999107 = UnknownExceptionWhenCheckApplicationIntegrationUniqueness
+type AddIntegrationToApplicationRequestErrorCodes int32
+
+// List of AddIntegrationToApplicationRequestErrorCodes
+const (
+	18999101__AddIntegrationToApplicationRequestErrorCodes AddIntegrationToApplicationRequestErrorCodes = "18999101"
+	18999102__AddIntegrationToApplicationRequestErrorCodes AddIntegrationToApplicationRequestErrorCodes = "18999102"
+	18999103__AddIntegrationToApplicationRequestErrorCodes AddIntegrationToApplicationRequestErrorCodes = "18999103"
+	18999104__AddIntegrationToApplicationRequestErrorCodes AddIntegrationToApplicationRequestErrorCodes = "18999104"
+	18999105__AddIntegrationToApplicationRequestErrorCodes AddIntegrationToApplicationRequestErrorCodes = "18999105"
+	18999106__AddIntegrationToApplicationRequestErrorCodes AddIntegrationToApplicationRequestErrorCodes = "18999106"
+	18999107__AddIntegrationToApplicationRequestErrorCodes AddIntegrationToApplicationRequestErrorCodes = "18999107"
+)

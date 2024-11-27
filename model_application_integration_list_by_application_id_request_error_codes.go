@@ -1,0 +1,10 @@
+
+package swagger
+// ApplicationIntegrationListByApplicationIdRequestErrorCodes :   18998 = UnknownExceptionWhenTryingFetchApplicationIntegrations  18999 = ApplicationNotFound
+type ApplicationIntegrationListByApplicationIdRequestErrorCodes int32
+
+// List of ApplicationIntegrationListByApplicationIdRequestErrorCodes
+const (
+	18998__ApplicationIntegrationListByApplicationIdRequestErrorCodes ApplicationIntegrationListByApplicationIdRequestErrorCodes = "18998"
+	18999__ApplicationIntegrationListByApplicationIdRequestErrorCodes ApplicationIntegrationListByApplicationIdRequestErrorCodes = "18999"
+)

@@ -1,0 +1,11 @@
+
+package swagger
+// RevokeApplicationApiKeyRequestErrorCodes :   16998101 = ApplicationApiKeyNotFound  16998102 = UnknownExceptionWhenCheckApplicationExistence  16998103 = UnknownExceptionWhenGenerateApplicationApiKey
+type RevokeApplicationApiKeyRequestErrorCodes int32
+
+// List of RevokeApplicationApiKeyRequestErrorCodes
+const (
+	16998101__RevokeApplicationApiKeyRequestErrorCodes RevokeApplicationApiKeyRequestErrorCodes = "16998101"
+	16998102__RevokeApplicationApiKeyRequestErrorCodes RevokeApplicationApiKeyRequestErrorCodes = "16998102"
+	16998103__RevokeApplicationApiKeyRequestErrorCodes RevokeApplicationApiKeyRequestErrorCodes = "16998103"
+)
